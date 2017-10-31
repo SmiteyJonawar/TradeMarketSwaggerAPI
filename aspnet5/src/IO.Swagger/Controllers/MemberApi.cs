@@ -50,9 +50,15 @@ namespace IO.Swagger.Controllers
         [HttpPost]
         [Route("/Jonawar/HelloWorldBuNoGoodbye/v1/member/add")]
         [SwaggerOperation("AddMember")]
-        public virtual void AddMember([FromBody]Member who)
+        [SwaggerResponse(200, type: typeof(Member))]
+        public virtual IActionResult AddMember([FromBody]Member who)
         { 
-            throw new NotImplementedException();
+            string exampleJson = null;
+            
+            var example = exampleJson != null
+            ? JsonConvert.DeserializeObject<Member>(exampleJson)
+            : default(Member);
+            return new ObjectResult(example);
         }
     }
 }
