@@ -9,7 +9,7 @@ import io.swagger.annotations.ApiModelProperty;
  * Description of a person to interact with
  */
 @ApiModel(description = "Description of a person to interact with")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-31T08:22:39.249Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-31T09:16:47.529Z")
 public class Member {
   @SerializedName("email")
   private String email = null;

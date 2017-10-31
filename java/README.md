@@ -73,7 +73,8 @@ public class MemberApiExample {
         MemberApi apiInstance = new MemberApi();
         Member who = new Member(); // Member | Who to say hello to
         try {
-            apiInstance.addMember(who);
+            Member result = apiInstance.addMember(who);
+            System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling MemberApi#addMember");
             e.printStackTrace();
