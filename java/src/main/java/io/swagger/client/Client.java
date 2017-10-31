@@ -19,7 +19,7 @@ public class Client {
      */
     public static void main(String[] args) throws ApiException {
         ApiClient client = new ApiClient();
-        client.setBasePath("http://localhost:8080");
+        client.setBasePath("http://130.226.87.136:50352/Jonawar/HelloWorldBuNoGoodbye/v1");
         MemberApi api = new MemberApi(client);
         Member p1 = new Member();
         
@@ -32,7 +32,10 @@ public class Client {
         p1.setPassword("superman");
         p1.setPhoneNumber("911");
         
-        api.addMember(p1);
+        
+        
+        
+        System.out.println(api.addMember(p1));
         
     }
 
