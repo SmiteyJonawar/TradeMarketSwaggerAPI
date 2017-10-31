@@ -86,7 +86,7 @@ public class MemberApi {
 
     /**
      * Add member to database
-     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bensen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
+     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bansen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
      * @param who Who to say hello to (optional)
      * @return Member
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -98,7 +98,7 @@ public class MemberApi {
 
     /**
      * Add member to database
-     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bensen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
+     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bansen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
      * @param who Who to say hello to (optional)
      * @return ApiResponse&lt;Member&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -111,7 +111,7 @@ public class MemberApi {
 
     /**
      * Add member to database (asynchronously)
-     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bensen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
+     * This is an example of how the JSON should be structured             {                 \&quot;email\&quot; : \&quot;john@mail.com\&quot;,                 \&quot;firstName\&quot; : \&quot;Benny\&quot;,                 \&quot;lastName\&quot; : \&quot;Bansen\&quot;,                 \&quot;address\&quot; : \&quot;jørgenvej 21\&quot;,                 \&quot;phoneNumber\&quot; : \&quot;+45 21 21 21 21\&quot;,                 \&quot;age\&quot; : 21,                 \&quot;password\&quot; : \&quot;suicune\&quot;,                 \&quot;id\&quot; : 1             }
      * @param who Who to say hello to (optional)
      * @param callback The callback to be executed when the API call finishes
      * @return The request call
