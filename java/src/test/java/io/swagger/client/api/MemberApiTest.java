@@ -28,7 +28,7 @@ public class MemberApiTest {
     @Test
     public void addMemberTest() throws ApiException {
         Member who = null;
-        // api.addMember(who);
+        // Member response = api.addMember(who);
 
         // TODO: test validations
     }

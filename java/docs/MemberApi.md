@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 <a name="addMember"></a>
 # **addMember**
-> addMember(who)
+> Member addMember(who)
 
 Add member to database
 
@@ -25,7 +25,8 @@ This is an example of how the JSON should be structured             {           
 MemberApi apiInstance = new MemberApi();
 Member who = new Member(); // Member | Who to say hello to
 try {
-    apiInstance.addMember(who);
+    Member result = apiInstance.addMember(who);
+    System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling MemberApi#addMember");
     e.printStackTrace();
@@ -40,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-null (empty response body)
+[**Member**](Member.md)
 
 ### Authorization
 
