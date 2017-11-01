@@ -51,8 +51,8 @@ namespace IO.Swagger.Controllers
         [Route("/Jonawar/HelloWorldBuNoGoodbye/v1/member/add")]
         [SwaggerOperation("AddMember")]
         public virtual void AddMember([FromBody]Member who)
-        { 
-            throw new NotImplementedException();
+        {
+            Member m = who;
         }
     }
 }
